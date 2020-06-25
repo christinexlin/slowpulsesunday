@@ -64,7 +64,7 @@ function App() {
       <div className="row">
           <div className="col-md">
               <h6>Paying artists fairly</h6>
-              <p>We say no to “paying with exposure.” 50 percent of all profits go directly to you.</p>
+              <p>We say no to “paying with exposure.” 50% of all profits go directly to you.</p>
 
           </div>
 
