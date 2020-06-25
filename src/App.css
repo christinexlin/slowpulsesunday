@@ -30,6 +30,14 @@
     font-style: regular;
 }
 
+@font-face {
+  font-family: 'Sporting Grotesk';
+  src: url(font/Sporting_Grotesque-Bold_web.woff2) format('woff2'),
+       url(font/Sporting_Grotesque-Bold_web.woff) format('woff');
+    font-weight: 600;
+    font-style: regular;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,7 +64,7 @@ body {
     font-weight: 400;
 }
 
-h1, h3, h6 {
+h1, h3, h4 {
     font-family: 'Corben', cursive;
 }
 
@@ -64,6 +72,21 @@ h3 {
     font-size: 3.5rem;
     font-weight: 500;
 }
+
+h4 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+}
+
+h5 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 1.3rem;
+}
+
 
 .App {
     /*background-color: #E2F2FB;*/
@@ -75,66 +98,81 @@ h3 {
     top:  0px;
     left:  0px;
     width: 100%;
-  z-index: 10000001;
-  overflow: hidden;
-  background-color: #f5f5f5;
-  padding-bottom: 12px;
+    z-index: 10000001;
+    overflow: hidden;
+    background-color: #E2F2FB;
 }
 
-.header h1 {
+.header p {
     display: flex;
-    font-size: 0.9rem;
-    /*color: #A0CBE2;*/
+    font-size: 0.8rem;
+    color: black;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: 'Sporting Grotesk';
     letter-spacing: 2px;
 }
 
-h1 span {
-    width: 260px;
+p span {
+    width: 240px;
     display: inline-block;
     flex: 0 0 auto;
-    padding: 15px 0px 0px 0px;
+    padding: 12px 0px 12px 0px;
 }
 
 .landing {
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
-.landing div {
-    width: 80%;
-    padding: 50px 50px 100px 50px;
+.landing .row {
+    padding: 50px 50px 50px 50px;
+    width: 90%;
+    margin: auto;
+}
+
+.landing .row .col-md-5 {
+    display: flex;
+    align-items: center;
 }
 
 .landing h1 {
-    font-size: 6.5rem;
-    text-align: center;
+    font-size: 6rem;
+    line-height: 6rem;
+    padding-bottom: 60px;
     /*color: #1B6A43;*/
 }
 
 .landing img {
-    width: 40%;
-    margin: auto;
-     display: block;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
 }
 
 .section {
-    padding: 120px 50px 120px 50px;
-}
-
-.values {
-    background-color: black;
-    color: white;
-    text-align: center;
+    padding: 100px 50px 100px 50px;
 }
 
 .section .col-md {
     font-weight: 500;
-    padding: 30px 50px 30px 50px;
+    padding: 20px 50px 20px 50px;
+}
+
+.values {
+    background-color: #1B6A43;
+    color: #E2F2FB;
+    text-align: center;
+}
+
+.values .heading {
+    width: 65%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.section h3 {
+    text-align: center;
+    line-height: 4rem;
+    margin-bottom: 50px;
 }
 
 .section h6 {
@@ -154,20 +192,45 @@ h1 span {
 
 .section .col-md img {
     width: 100%;
+    padding: 10px 0px 10px 0px;
 }
 
-.faq {
-    background-color: black;
-    color: white;
+.artists {
+    background-color: #1B6A43;
+    color: #E2F2FB;
 }
 
-.faq h3 {
+.artists div {
+    max-width: 50vw;
+    margin: auto;
     text-align: center;
 }
 
-.faq-div {
+#link {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    background-color: #E2F2FB;
+    border: solid #1B6A43 2px;
+    border-radius: 5px;
+    padding: 8px 13px 5px 13px;
+    color: #1B6A43;
+}
+
+#link:hover {
+    text-decoration: none;
+    color: #E2F2FB;
+    background-color: #1B6A43;
+    border: solid #E2F2FB 2px;
+}
+
+.faq {
+    text-align: center;
+}
+
+.accordion {
     margin: auto;
-    padding: 30px 30px 30px 30px;
+    padding: 0px 30px 80px 30px;
 }
 
 .card {
@@ -176,28 +239,49 @@ h1 span {
 
 .faq-div .card-header {
     border: none;
-    background-color: black;
+    padding: 2px 0px 2px 0px;
+    background-color: #f5f5f5;
 }
 
 .faq-div .card-body {
-    background-color: black;
     padding: 20px 20px 20px 33px;
+    background-color: #f5f5f5;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
-    border-color: 1px solid black;
-    background-color: black;
+.card-header h4 {
+    font-size: 2rem;
 }
 
 .btn-link {
-    background-color: black;
     border: none;
     font-size: 2rem;
     font-family: 'Corben', cursive;
+    color: black;
+}
+
+.btn-link:hover {
+    color: black;
+}
+
+.about {
+    background-color: black;
     color: white;
 }
 
-.btn-primary:hover, .btn-primary:focus {
-    text-decoration: none;
-    background-color: black;
+.about .col-md p {
+    padding: 0px 0px 30px 0px;
+}
+
+.about .col-md img {
+    width: 100%;
+}
+
+.about .col-md:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.about .row {
+    width: 80%;
+    margin: auto;
 }
