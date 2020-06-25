@@ -123,12 +123,22 @@ function App() {
       </div>
       </div>
 
-      <div className="section artists">
-      <h3>Be part of our next artist cohort</h3>
-      <div>
-      <p>Fill out the form below and we'll be in touch!</p>
-      <a id="link" href="https://slowpulsesunday.typeform.com/to/L7tQRZs4">I'm ready!</a>
-</div>
+      <div className="section artists container-fluid">
+      <div className="row">
+
+      <div className="col-md">
+          <h3>Be part of our next artist cohort</h3>
+          <p>Fill out the form below and we'll be in touch</p>
+          <a id="link" href="https://slowpulsesunday.typeform.com/to/L7tQRZs4">I'm ready!</a>
+      </div>
+
+      <div className="col-md">
+          <h3>Subscribe to our newsletter</h3>
+          <p>We'll notify you when a new collection is released</p>
+          <a id="link" href="https://slowpulsesunday.typeform.com/to/OF2PHTZ1">Subscribe</a>
+      </div>
+
+      </div>
       </div>
 
       <div className="section faq">

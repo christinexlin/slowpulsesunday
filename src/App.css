@@ -148,7 +148,7 @@ p span {
 .section h3 {
     text-align: center;
     line-height: 4rem;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .section h6 {
@@ -176,9 +176,12 @@ p span {
     color: #E2F2FB;
 }
 
-.artists div {
-    max-width: 50vw;
+.artists .row {
+    width: 90%;
     margin: auto;
+}
+
+.artists .col-md {
     text-align: center;
 }
 
@@ -190,6 +193,7 @@ p span {
     border: solid #1B6A43 2px;
     border-radius: 5px;
     padding: 8px 13px 5px 13px;
+    margin-bottom: 30px;
     color: #1B6A43;
 }
 

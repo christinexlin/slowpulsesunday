@@ -36,7 +36,7 @@ class Questions extends Component {
             <Card>
             <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                <h4>How do we price our items?</h4>
+                <h4>How do you price your items?</h4>
                 </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="2">
@@ -75,7 +75,7 @@ class Questions extends Component {
                 </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="5">
-                <Card.Body>Soon. Stay tuned!</Card.Body>
+                <Card.Body>Soon. Subscribe to our newsletter to be notified when our first collection is released!</Card.Body>
             </Accordion.Collapse>
             </Card>
 
