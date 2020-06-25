@@ -14,7 +14,8 @@ import { GrMailOption } from 'react-icons/gr';
 function App() {
     let text = useRef(null);
     let text2 = useRef(null);
-
+    var leftarrow = '\u27f6';
+    var rightarrow = '\u27f5';
 
     useEffect(() => {
         gsap.fromTo(
@@ -136,7 +137,7 @@ function App() {
           <Questions />
           </div>
           <h5>MORE QUESTIONS?</h5>
-         <p>🡒 hello@slowpulsesunday.com 🡐</p>
+         <p>{leftarrow} hello@slowpulsesunday.com {rightarrow}</p>
       </div>
 
       <div className="section about container-fluid">
