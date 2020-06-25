@@ -22,6 +22,14 @@
     font-style: regular;
 }
 
+@font-face {
+  font-family: 'Sporting Grotesk';
+  src: url(font/Sporting_Grotesque-Regular_web.woff2) format('woff2'),
+       url(font/Sporting_Grotesque-Regular_web.woff) format('woff');
+    font-weight: 400;
+    font-style: regular;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,7 +52,7 @@ time, mark, audio, video {
 }
 
 body {
-    font-family: 'HK Grotesk';
+    font-family: 'Sporting Grotesk';
     font-weight: 400;
 }
 
@@ -79,12 +87,12 @@ h3 {
     /*color: #A0CBE2;*/
     font-weight: 600;
     text-transform: uppercase;
-    font-family: 'HK Grotesk';
+    font-family: 'Sporting Grotesk';
     letter-spacing: 2px;
 }
 
 h1 span {
-    width: 220px;
+    width: 260px;
     display: inline-block;
     flex: 0 0 auto;
     padding: 15px 0px 0px 0px;
@@ -132,10 +140,11 @@ h1 span {
 .section h6 {
     font-size: 1.8rem;
     padding-bottom: 30px;
+    line-height: 2.1rem;
 }
 
 .section p {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 
@@ -145,4 +154,50 @@ h1 span {
 
 .section .col-md img {
     width: 100%;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+}
+
+.faq h3 {
+    text-align: center;
+}
+
+.faq-div {
+    margin: auto;
+    padding: 30px 30px 30px 30px;
+}
+
+.card {
+    border: none;
+}
+
+.faq-div .card-header {
+    border: none;
+    background-color: black;
+}
+
+.faq-div .card-body {
+    background-color: black;
+    padding: 20px 20px 20px 33px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
+    border-color: 1px solid black;
+    background-color: black;
+}
+
+.btn-link {
+    background-color: black;
+    border: none;
+    font-size: 2rem;
+    font-family: 'Corben', cursive;
+    color: white;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    text-decoration: none;
+    background-color: black;
 }

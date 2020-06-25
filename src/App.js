@@ -4,6 +4,7 @@ import { gsap } from "gsap";
 import girl from "./images/MeditatingDoodle.png";
 import boy from "./images/ZombieingDoodle.png";
 import box from "./images/UnboxingDoodle.png";
+import Questions from './Questions.js';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
             },
             {
                 repeat: -1,
-                x: -220,
+                x: -260,
                 ease: "linear",
                 duration: 6
             }
@@ -102,9 +103,23 @@ function App() {
               <h6>We ship</h6>
               <img src={box}/>
               <p>Diversity isn’t just a catchphrase to us. We are dedicated to spotlighting artists of all genders, identities and backgrounds.</p>
-
           </div>
       </div>
+      </div>
+
+      <div className="section">
+      <h3>How we help artists</h3>
+      </div>
+
+      <div className="section">
+      <h3>Join Us</h3>
+      </div>
+
+      <div className="section faq">
+      <h3>FAQ</h3>
+          <div className="faq-div">
+          <Questions />
+          </div>
       </div>
 </div>
   );
