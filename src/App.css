@@ -1,28 +1,4 @@
 @font-face {
-  font-family: 'HK Grotesk';
-  src: url(font/HKGrotesk-Regular.woff2) format('woff2'),
-       url(font/HKGrotesk-Regular.woff) format('woff');
-    font-weight: 400;
-    font-style: regular;
-}
-
-@font-face {
-  font-family: 'HK Grotesk';
-  src: url(font/HKGrotesk-Medium.woff2) format('woff2'),
-       url(font/HKGrotesk-Medium.woff) format('woff');
-    font-weight: 500;
-    font-style: regular;
-}
-
-@font-face {
-  font-family: 'HK Grotesk';
-  src: url(font/HKGrotesk-Bold.woff2) format('woff2'),
-       url(font/HKGrotesk-Bold.woff) format('woff');
-    font-weight: 600;
-    font-style: regular;
-}
-
-@font-face {
   font-family: 'Sporting Grotesk';
   src: url(font/Sporting_Grotesque-Regular_web.woff2) format('woff2'),
        url(font/Sporting_Grotesque-Regular_web.woff) format('woff');
@@ -220,7 +196,7 @@ p span {
 #link:hover {
     text-decoration: none;
     color: #E2F2FB;
-    background-color: #1B6A43;
+    background-color: #086675;
     border: solid #E2F2FB 2px;
 }
 
