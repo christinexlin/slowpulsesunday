@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/slowpulsesunday/static/css/main.ac782217.chunk.css",
-    "main.js": "/slowpulsesunday/static/js/main.a2e9c5c6.chunk.js",
-    "main.js.map": "/slowpulsesunday/static/js/main.a2e9c5c6.chunk.js.map",
-    "runtime-main.js": "/slowpulsesunday/static/js/runtime-main.d3d552d2.js",
-    "runtime-main.js.map": "/slowpulsesunday/static/js/runtime-main.d3d552d2.js.map",
-    "static/js/2.727a3174.chunk.js": "/slowpulsesunday/static/js/2.727a3174.chunk.js",
-    "static/js/2.727a3174.chunk.js.map": "/slowpulsesunday/static/js/2.727a3174.chunk.js.map",
-    "index.html": "/slowpulsesunday/index.html",
-    "precache-manifest.bb7b74ca45eb46c46c300b7e13563f47.js": "/slowpulsesunday/precache-manifest.bb7b74ca45eb46c46c300b7e13563f47.js",
-    "service-worker.js": "/slowpulsesunday/service-worker.js",
-    "static/css/main.ac782217.chunk.css.map": "/slowpulsesunday/static/css/main.ac782217.chunk.css.map",
-    "static/js/2.727a3174.chunk.js.LICENSE.txt": "/slowpulsesunday/static/js/2.727a3174.chunk.js.LICENSE.txt",
-    "static/media/CoffeeDoddle.png": "/slowpulsesunday/static/media/CoffeeDoddle.19c6bce4.png",
-    "static/media/MeditatingDoodle.png": "/slowpulsesunday/static/media/MeditatingDoodle.3de9ae58.png",
-    "static/media/MessyDoodle.png": "/slowpulsesunday/static/media/MessyDoodle.ef693f15.png",
-    "static/media/App.css": "/slowpulsesunday/static/media/Sporting_Grotesque-Regular_web.642bb03e.woff",
-    "static/media/UnboxingDoodle.png": "/slowpulsesunday/static/media/UnboxingDoodle.24e5af5f.png",
-    "static/media/ZombieingDoodle.png": "/slowpulsesunday/static/media/ZombieingDoodle.44df482f.png"
+    "main.css": "/static/css/main.107bf5e7.chunk.css",
+    "main.js": "/static/js/main.3ee43608.chunk.js",
+    "main.js.map": "/static/js/main.3ee43608.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d10540d4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d10540d4.js.map",
+    "static/js/2.727a3174.chunk.js": "/static/js/2.727a3174.chunk.js",
+    "static/js/2.727a3174.chunk.js.map": "/static/js/2.727a3174.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.55d766eda5b5dd5d26b6b7dfa475eb27.js": "/precache-manifest.55d766eda5b5dd5d26b6b7dfa475eb27.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.107bf5e7.chunk.css.map": "/static/css/main.107bf5e7.chunk.css.map",
+    "static/js/2.727a3174.chunk.js.LICENSE.txt": "/static/js/2.727a3174.chunk.js.LICENSE.txt",
+    "static/media/CoffeeDoddle.png": "/static/media/CoffeeDoddle.19c6bce4.png",
+    "static/media/MeditatingDoodle.png": "/static/media/MeditatingDoodle.3de9ae58.png",
+    "static/media/MessyDoodle.png": "/static/media/MessyDoodle.ef693f15.png",
+    "static/media/App.css": "/static/media/Sporting_Grotesque-Regular_web.642bb03e.woff",
+    "static/media/UnboxingDoodle.png": "/static/media/UnboxingDoodle.24e5af5f.png",
+    "static/media/ZombieingDoodle.png": "/static/media/ZombieingDoodle.44df482f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d3d552d2.js",
+    "static/js/runtime-main.d10540d4.js",
     "static/js/2.727a3174.chunk.js",
-    "static/css/main.ac782217.chunk.css",
-    "static/js/main.a2e9c5c6.chunk.js"
+    "static/css/main.107bf5e7.chunk.css",
+    "static/js/main.3ee43608.chunk.js"
   ]
 }
