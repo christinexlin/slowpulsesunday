@@ -59,8 +59,11 @@ function App() {
  <div className="col-md-7">
 
   <h1>Slow Pulse Sunday</h1>
-      <h6>Slow Pulse Sunday is a sustainable clothing brand dedicated to supporting artists.
-      We release curated collections with original artwork from our favorite artists.</h6>
+      <h6>We are a sustainable clothing brand dedicated to supporting
+      artists and normalizing conscious consumption.</h6>
+      <h6>We collaborate with illustrators of diverse backgrounds to create
+      limited edition clothing with original artwork. Artists receive 50% of their profits
+      and we take care of production and shipping. </h6>
 </div>
 <div className="col-md-5">
  <img src={girl}/>
@@ -96,29 +99,21 @@ function App() {
       </div>
 
       <div className="section business">
-      <h3>How we work</h3>
+      <div className="row heading">
+      <h4>Our mission is to help consumers support artists and causes they care about.</h4>
+      </div>
       <div className="row">
           <div className="col-md">
-              <h5>You create</h5>
+
               <img src={boy}/>
-              <p>You create artwork on your own terms.
-              On the last week of every month, we take designs for our next collection.</p>
-
-          </div>
-
-          <div className="col-md">
-              <h5>We curate + produce + ship</h5>
-              <img src={curate}/>
-              <p>We carefully curate a collection that spotlights diverse voices and
-              our artists work with us to design how their clothing piece looks.
-              We take care of pricing, production, and shipping. </p>
-          </div>
-
-          <div className="col-md">
-              <h5>You get paid!</h5>
-              <img src={box}/>
-              <p>We're creatives too, and we say no to paying with exposure.
-             Artists are paid 50% of the profits from their sales.</p>
+              </div>
+              <div className="col-md">
+              <div>
+              <h6>We raise awareness for social movements through collections that focus on important issues such as mental health, criminal justice reform, or the gender wage gap.
+              </h6>
+              <h6>For these curated collections,
+              100% of all profits are donated to organizations that do important work for these causes. </h6>
+              </div>
           </div>
       </div>
       </div>

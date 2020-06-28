@@ -119,6 +119,11 @@ p span {
     /*color: #1B6A43;*/
 }
 
+.landing h6 {
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
 .landing img {
     width: 100%;
     padding: 20px 0px 0px 0px;
@@ -139,7 +144,7 @@ p span {
     text-align: center;
 }
 
-.values .heading {
+.heading {
     width: 65%;
     margin: auto;
     padding-bottom: 30px;
@@ -166,6 +171,11 @@ p span {
     text-align: center;
 }
 
+.text-div {
+    width: 60%;
+    margin: auto;
+}
+
 .section .col-md img {
     width: 100%;
     padding: 10px 0px 10px 0px;
@@ -183,6 +193,16 @@ p span {
 
 .artists .col-md {
     text-align: center;
+}
+
+.business h6 {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.business .col-md {
+    display: flex;
+    align-items: center;
 }
 
 #link {

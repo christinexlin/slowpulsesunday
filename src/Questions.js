@@ -12,24 +12,24 @@ class Questions extends Component {
             <Card>
             <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                <h4>Do I get credit for my work?</h4>
+                <h4>Do artists get credit for their work?</h4>
                 </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="0">
                 <Card.Body>Absolutely.
-                Every item you design will be attributed to you and displayed with a bio including
-                your contact info. </Card.Body>
+                Every item is attributed to the original artist and displayed with a bio including
+                their contact info. </Card.Body>
             </Accordion.Collapse>
             </Card>
 
             <Card>
             <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                <h4>Who can submit artwork?</h4>
+                <h4>I'm an artist. How do I work with you?</h4>
                 </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="1">
-                <Card.Body>Anyone who has original artwork can submit!</Card.Body>
+                <Card.Body>Fill out the form above and we'll be in touch!</Card.Body>
             </Accordion.Collapse>
             </Card>
 
@@ -51,20 +51,20 @@ class Questions extends Component {
                 </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="3">
-                <Card.Body>You maintain full ownership of your designs. By submitting your design,
-                you're granting us a temporary license to use it commercially. If you change your mind
-                at any point, just let us know and we'll remove your item from our site.</Card.Body>
+                <Card.Body>Artists maintain full ownership of their designs. By submitting a design,
+                an artist grants us a temporary license to use their work commercially. If the artist changes their mind
+                at any point, we'll remove their item from our site.</Card.Body>
             </Accordion.Collapse>
             </Card>
 
             <Card>
             <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="4">
-                <h4>Do I get a discount on my own artwork?</h4>
+                <h4>Do artists get a discount on their own artwork?</h4>
                 </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="4">
-                <Card.Body>Of course! Since you automatically receive 50% of all your sales, you'll be able to purchase your own items at a 50% discount.</Card.Body>
+                <Card.Body>Of course! Since artists automatically receive 50% of all their sales, they'll be able to purchase their own items at a 50% discount.</Card.Body>
             </Accordion.Collapse>
             </Card>
 
