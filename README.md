@@ -1,1 +1,3 @@
-Visit site at: www.slowpulsesunday.com
+Visit site: www.slowpulsesunday.com
+
+Landing page for Slow Pulse Sunday
